@@ -1,0 +1,62 @@
+DEBUG 2019-08-12 09:43:20,172 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-12 09:43:20,236 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2019-08-12 09:43:20,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Research.Web.Host.Startup.ResearchWebHostModule, Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Research.ResearchWebCoreModule, Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Research.ResearchApplicationModule, Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Research.ResearchCoreModule, Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerEntityFrameworkCoreModule, Abp.ZeroCore.IdentityServer4.EntityFrameworkCore, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.IdentityServer4.AbpZeroCoreIdentityServerModule, Abp.ZeroCore.IdentityServer4, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:20,307 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2019-08-12 09:43:20,413 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-12 09:43:20,413 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-12 09:43:20,413 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-12 09:43:20,414 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-12 09:43:20,953 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Research.EntityFrameworkCore.ResearchDbContext, Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-12 09:43:22,312 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-12 09:43:22,413 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-12 09:43:22,458 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-12 09:43:22,477 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-08-12 09:43:22,506 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-12 09:43:22,802 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-12 09:43:22,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 22 classes define auto mapping attributes
+DEBUG 2019-08-12 09:43:22,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-12 09:43:22,861 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-12 09:43:22,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-08-12 09:43:22,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-08-12 09:43:22,863 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-12 09:43:22,863 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-12 09:43:22,863 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.CreateUserDto
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.UserBriefDto
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.UserNameDto
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.UserWithoutRoleDto
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.UserDto
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.CreateUserWithRoleInput
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.CreateUserWithSingleRoleInput
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.CreateUserInput
+DEBUG 2019-08-12 09:43:22,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Users.Dto.UserListDto
+DEBUG 2019-08-12 09:43:22,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-12 09:43:22,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Roles.Dto.CreateSingleDto
+DEBUG 2019-08-12 09:43:22,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Roles.Dto.PermissionDto
+DEBUG 2019-08-12 09:43:22,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Roles.Dto.RoleDto
+DEBUG 2019-08-12 09:43:22,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Research.Roles.Dto.RoleMenuDto
+INFO  2019-08-12 09:43:27,739 [1    ] IdentityServer4.Startup                  - Starting IdentityServer4 version 2.3.2.0
+INFO  2019-08-12 09:43:28,014 [1    ] IdentityServer4.Startup                  - Using the default authentication scheme Identity.Application for IdentityServer
+INFO  2019-08-12 09:43:32,678 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5001/api/health  
+INFO  2019-08-12 09:43:37,779 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health", area = ""}. Executing action Research.Web.Host.Controllers.HealthController.Get (Research.Web.Host)
+INFO  2019-08-12 09:43:37,870 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Research.Web.Host.Controllers.HealthController.Get (Research.Web.Host) - Validation state: Valid
+INFO  2019-08-12 09:43:37,876 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Research.Web.Host.Controllers.HealthController.Get (Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.5912ms.
+INFO  2019-08-12 09:43:38,039 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-12 09:43:38,115 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Research.Web.Host.Controllers.HealthController.Get (Research.Web.Host) in 327.0807ms
+INFO  2019-08-12 09:43:38,129 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5454.4421ms 200 application/json; charset=utf-8

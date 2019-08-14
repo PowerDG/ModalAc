@@ -1,0 +1,491 @@
+DEBUG 2019-08-07 12:02:44,819 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-07 12:02:44,887 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-08-07 12:02:44,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookServiceHostModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookApplicationModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookCoreModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.EntityFrameworkCore.BookEntityFrameworkCoreModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:44,917 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-08-07 12:02:45,551 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BookService.Host.EntityFrameworkCore.BookDbContext, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 12:02:45,669 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2019-08-07 12:02:45,796 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-07 12:02:45,829 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-07 12:02:46,313 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-07 12:02:46,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes define auto mapping attributes
+DEBUG 2019-08-07 12:02:46,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.AfficheDto
+DEBUG 2019-08-07 12:02:46,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.BillInfoDto
+DEBUG 2019-08-07 12:02:46,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookNameEditDto
+DEBUG 2019-08-07 12:02:46,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookEditDto
+DEBUG 2019-08-07 12:02:46,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookListDto
+INFO  2019-08-07 12:03:20,895 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 12:03:21,041 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:03:21,147 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:03:21,184 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 12:03:21,291 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 12:03:21,299 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4613ms.
+INFO  2019-08-07 12:03:21,327 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 77 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 12:03:21,344 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 12:03:21,378 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 187.4768ms
+INFO  2019-08-07 12:03:21,381 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:03:21,389 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 497.6802ms 200 application/json; charset=utf-8
+INFO  2019-08-07 12:04:06,395 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 12:04:06,399 [12   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:04:06,404 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:04:06,409 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 12:04:06,413 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 12:04:06,417 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.023ms.
+INFO  2019-08-07 12:04:06,417 [12   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 12:04:06,422 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 12:04:06,426 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 14.098ms
+INFO  2019-08-07 12:04:06,430 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:04:06,435 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.5192ms 200 application/json; charset=utf-8
+INFO  2019-08-07 12:04:51,448 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 12:04:51,464 [7    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:04:51,472 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:04:51,481 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 12:04:51,490 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 12:04:51,494 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2308ms.
+INFO  2019-08-07 12:04:51,495 [7    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 11 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 12:04:51,500 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 12:04:51,505 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 21.2201ms
+INFO  2019-08-07 12:04:51,508 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:04:51,524 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.6889ms 200 application/json; charset=utf-8
+INFO  2019-08-07 12:05:36,825 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 12:05:36,843 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:05:36,953 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:05:36,965 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 12:05:36,974 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 12:05:36,980 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0067ms.
+INFO  2019-08-07 12:05:36,980 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 14 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 12:05:36,986 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 12:05:36,998 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 21.6891ms
+INFO  2019-08-07 12:05:37,003 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 12:05:37,009 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 420.157ms 200 application/json; charset=utf-8
+INFO  2019-08-07 12:05:45,788 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/swagger/index.html  
+WARN  2019-08-07 12:05:45,824 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:05:45,830 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 12:05:45,855 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:05:45,976 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 247.6035ms 200 text/html
+INFO  2019-08-07 12:05:46,082 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/swagger/swagger-ui-bundle.js  
+INFO  2019-08-07 12:05:46,091 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/swagger/swagger-ui.css  
+WARN  2019-08-07 12:05:46,105 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+INFO  2019-08-07 12:05:46,113 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/swagger/swagger-ui-standalone-preset.js  
+WARN  2019-08-07 12:05:46,121 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:05:46,123 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:05:46,130 [19   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 12:05:46,138 [12   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+WARN  2019-08-07 12:05:46,142 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:05:46,147 [19   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 12:05:46,154 [16   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+DEBUG 2019-08-07 12:05:46,158 [19   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:05:46,270 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-08-07 12:05:46,277 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-08-07 12:05:46,279 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-08-07 12:05:46,297 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.2283ms 200 text/css
+INFO  2019-08-07 12:05:46,302 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.301ms 200 application/javascript
+INFO  2019-08-07 12:05:46,306 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 220.2096ms 200 application/javascript
+INFO  2019-08-07 12:05:46,506 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/swagger/favicon-16x16.png  
+WARN  2019-08-07 12:05:46,510 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:05:46,513 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 12:05:46,522 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:05:46,537 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2019-08-07 12:05:46,542 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.3063ms 200 image/png
+INFO  2019-08-07 12:05:46,687 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/swagger/v1/swagger.json  
+WARN  2019-08-07 12:05:46,697 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:05:46,708 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 12:05:46,743 [12   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:05:47,091 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 405.1318ms 200 application/json;charset=utf-8
+INFO  2019-08-07 12:05:56,036 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/Book/GetPaged  
+WARN  2019-08-07 12:05:56,042 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:05:56,045 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 12:05:56,049 [16   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:05:56,055 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 12:05:56,103 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetPaged", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookService.Host.Domain.Dtos.BookListDto]] GetPaged(BookService.Host.Domain.Dtos.GetBooksInput) on controller BookService.Host.Controllers.BookController (BookService.Host).
+INFO  2019-08-07 12:05:57,597 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 12:06:00,459 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2856.4778ms.
+INFO  2019-08-07 12:06:00,512 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.BookController.GetPaged is executed by an anonymous user in 2935 ms from 192.168.1.165 IP address with succeed.
+INFO  2019-08-07 12:06:00,517 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 12:06:00,548 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.BookController.GetPaged (BookService.Host) in 4439.1681ms
+INFO  2019-08-07 12:06:00,556 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 12:06:00,563 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4527.9218ms 200 application/json; charset=utf-8
+INFO  2019-08-07 12:06:17,088 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/Book/GetCurrentUserId  
+WARN  2019-08-07 12:06:17,094 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 12:06:17,098 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 12:06:17,103 [7    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 12:06:17,112 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.BookController.GetCurrentUserId (BookService.Host)'
+INFO  2019-08-07 12:06:17,121 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetCurrentUserId", controller = "Book"}. Executing controller action with signature Int64 GetCurrentUserId() on controller BookService.Host.Controllers.BookController (BookService.Host).
+INFO  2019-08-07 12:06:17,127 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.BookController.GetCurrentUserId (BookService.Host) - Validation state: Valid
+DEBUG 2019-08-07 13:05:53,461 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-07 13:05:53,509 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-08-07 13:05:53,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookServiceHostModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,531 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookApplicationModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,532 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookCoreModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,532 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.EntityFrameworkCore.BookEntityFrameworkCoreModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:53,538 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-08-07 13:05:53,949 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BookService.Host.EntityFrameworkCore.BookDbContext, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:05:54,048 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2019-08-07 13:05:54,157 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-07 13:05:54,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-07 13:05:54,617 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-07 13:05:54,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes define auto mapping attributes
+DEBUG 2019-08-07 13:05:54,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.AfficheDto
+DEBUG 2019-08-07 13:05:54,698 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.BillInfoDto
+DEBUG 2019-08-07 13:05:54,699 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookNameEditDto
+DEBUG 2019-08-07 13:05:54,699 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookEditDto
+DEBUG 2019-08-07 13:05:54,700 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookListDto
+INFO  2019-08-07 13:06:07,767 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/Book/GetPaged  
+WARN  2019-08-07 13:06:07,867 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 13:06:07,870 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 13:06:07,923 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:06:08,031 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:06:08,115 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetPaged", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookService.Host.Domain.Dtos.BookListDto]] GetPaged(BookService.Host.Domain.Dtos.GetBooksInput) on controller BookService.Host.Controllers.BookController (BookService.Host).
+INFO  2019-08-07 13:06:09,335 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:06:11,535 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2194.0058ms.
+INFO  2019-08-07 13:06:11,603 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.BookController.GetPaged is executed by an anonymous user in 2323 ms from 192.168.1.165 IP address with succeed.
+INFO  2019-08-07 13:06:11,626 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:06:11,680 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.BookController.GetPaged (BookService.Host) in 3559.5754ms
+INFO  2019-08-07 13:06:11,684 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:06:11,696 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3929.8492ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:06:34,892 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:06:34,898 [7    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:06:34,904 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:06:34,909 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:06:34,914 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:06:34,917 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2909ms.
+INFO  2019-08-07 13:06:34,918 [7    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:06:34,922 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:06:34,926 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 13.5465ms
+INFO  2019-08-07 13:06:34,928 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:06:34,935 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.5462ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:06:42,147 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/Book/GetById?Id=10  
+WARN  2019-08-07 13:06:42,152 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 13:06:42,157 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+DEBUG 2019-08-07 13:06:42,163 [9    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:06:42,175 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.BookController.GetById (BookService.Host)'
+INFO  2019-08-07 13:06:42,187 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetById", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[BookService.Host.Domain.Dtos.BookListDto] GetById(Abp.Application.Services.Dto.EntityDto`1[System.UInt32]) on controller BookService.Host.Controllers.BookController (BookService.Host).
+INFO  2019-08-07 13:06:42,201 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.BookController.GetById (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:06:42,559 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.BookController.GetById (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 353.8644ms.
+INFO  2019-08-07 13:06:42,667 [9    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.BookController.GetById is executed by an anonymous user in 470 ms from 192.168.1.165 IP address with succeed.
+INFO  2019-08-07 13:06:42,670 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:06:42,675 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.BookController.GetById (BookService.Host) in 483.2978ms
+INFO  2019-08-07 13:06:42,680 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.BookController.GetById (BookService.Host)'
+INFO  2019-08-07 13:06:42,684 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 537.3992ms 200 application/json; charset=utf-8
+DEBUG 2019-08-07 13:18:44,299 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-07 13:18:44,356 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-08-07 13:18:44,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookServiceHostModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookApplicationModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.BookCoreModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BookService.Host.EntityFrameworkCore.BookEntityFrameworkCoreModule, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.7.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,385 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-08-07 13:18:44,818 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BookService.Host.EntityFrameworkCore.BookDbContext, BookService.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-07 13:18:44,922 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2019-08-07 13:18:45,041 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-07 13:18:45,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-07 13:18:45,496 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-07 13:18:45,567 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes define auto mapping attributes
+DEBUG 2019-08-07 13:18:45,567 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.AfficheDto
+DEBUG 2019-08-07 13:18:45,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.BillInfoDto
+DEBUG 2019-08-07 13:18:45,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookNameEditDto
+DEBUG 2019-08-07 13:18:45,580 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookEditDto
+DEBUG 2019-08-07 13:18:45,580 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BookService.Host.Domain.Dtos.BookListDto
+INFO  2019-08-07 13:18:48,852 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:18:49,021 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:18:49,116 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:18:49,156 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:18:49,262 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:18:49,270 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5059ms.
+INFO  2019-08-07 13:18:49,298 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 72 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:18:49,314 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:18:49,342 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 182.1922ms
+INFO  2019-08-07 13:18:49,345 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:18:49,353 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 503.1338ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:19:34,358 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:19:34,362 [12   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:19:34,368 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:19:34,372 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:19:34,377 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:19:34,380 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0249ms.
+INFO  2019-08-07 13:19:34,381 [12   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:19:34,384 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:19:34,388 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 12.8017ms
+INFO  2019-08-07 13:19:34,392 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:19:34,396 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.8861ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:20:19,403 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:20:19,408 [10   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:20:19,411 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:20:19,414 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:20:19,418 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:20:19,422 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0077ms.
+INFO  2019-08-07 13:20:19,422 [10   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:20:19,425 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:20:19,429 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 11.9676ms
+INFO  2019-08-07 13:20:19,431 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:20:19,434 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.5924ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:21:04,444 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:21:04,447 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:21:04,451 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:21:04,455 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:21:04,460 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:21:04,463 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0086ms.
+INFO  2019-08-07 13:21:04,464 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:21:04,467 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:21:04,472 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 12.4968ms
+INFO  2019-08-07 13:21:04,475 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:21:04,487 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.071ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:21:49,500 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:21:49,509 [16   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:21:49,515 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:21:49,521 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:21:49,526 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:21:49,531 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0068ms.
+INFO  2019-08-07 13:21:49,531 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 10 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:21:49,536 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:21:49,540 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 15.5986ms
+INFO  2019-08-07 13:21:49,544 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:21:49,548 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.5806ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:22:32,481 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/Book/GetPaged?params=%7B%22MaxResultCount%22:3,%22SkipCount%22:0,%22QueryType%22:%22all%22%7D  0
+WARN  2019-08-07 13:22:32,496 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 13:22:32,500 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+INFO  2019-08-07 13:22:32,842 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+DEBUG 2019-08-07 13:22:32,852 [18   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was successfully authenticated.
+INFO  2019-08-07 13:22:32,859 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:22:32,909 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetPaged", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookService.Host.Domain.Dtos.BookListDto]] GetPaged(BookService.Host.Domain.Dtos.GetBooksInput) on controller BookService.Host.Controllers.BookController (BookService.Host).
+INFO  2019-08-07 13:22:34,440 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:22:34,554 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:22:34,558 [16   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:22:34,586 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:22:34,594 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:22:34,601 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:22:34,607 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0068ms.
+INFO  2019-08-07 13:22:34,607 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 12 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:22:34,611 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:22:34,615 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 17.2861ms
+INFO  2019-08-07 13:22:34,618 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:22:34,621 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.0941ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:22:37,003 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2557.8939ms.
+INFO  2019-08-07 13:22:37,047 [18   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.BookController.GetPaged is executed by an anonymous user in 2641 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:22:37,053 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:22:37,090 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.BookController.GetPaged (BookService.Host) in 4176.1484ms
+INFO  2019-08-07 13:22:37,094 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:22:37,106 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4624.2786ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:22:46,087 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/Book/GetPaged?params=%7B%22MaxResultCount%22:3,%22SkipCount%22:0,%22QueryType%22:%22all%22%7D  0
+WARN  2019-08-07 13:22:46,091 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 13:22:46,095 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+INFO  2019-08-07 13:22:46,102 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+DEBUG 2019-08-07 13:22:46,105 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was successfully authenticated.
+INFO  2019-08-07 13:22:46,114 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:22:46,118 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetPaged", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookService.Host.Domain.Dtos.BookListDto]] GetPaged(BookService.Host.Domain.Dtos.GetBooksInput) on controller BookService.Host.Controllers.BookController (BookService.Host).
+INFO  2019-08-07 13:22:46,124 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:22:46,235 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 107.0081ms.
+INFO  2019-08-07 13:22:46,252 [20   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.BookController.GetPaged is executed by an anonymous user in 132 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:22:46,265 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:22:46,273 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.BookController.GetPaged (BookService.Host) in 151.5292ms
+INFO  2019-08-07 13:22:46,279 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:22:46,291 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 206.0372ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:23:19,628 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:23:19,632 [16   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:23:19,635 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:23:19,639 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:23:19,643 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:23:19,646 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0065ms.
+INFO  2019-08-07 13:23:19,646 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:23:19,650 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:23:19,654 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 11.6293ms
+INFO  2019-08-07 13:23:19,657 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:23:19,660 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.3557ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:23:28,950 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/Book/GetPaged?params=%7B%22MaxResultCount%22:3,%22SkipCount%22:0,%22QueryType%22:%22all%22%7D  0
+WARN  2019-08-07 13:23:28,953 [19   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+WARN  2019-08-07 13:23:28,956 [19   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+INFO  2019-08-07 13:23:28,961 [19   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+DEBUG 2019-08-07 13:23:28,963 [19   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was successfully authenticated.
+INFO  2019-08-07 13:23:28,967 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:23:28,970 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetPaged", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[BookService.Host.Domain.Dtos.BookListDto]] GetPaged(BookService.Host.Domain.Dtos.GetBooksInput) on controller BookService.Host.Controllers.BookController (BookService.Host).
+INFO  2019-08-07 13:23:28,975 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:23:28,994 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.BookController.GetPaged (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14.3641ms.
+INFO  2019-08-07 13:23:28,997 [14   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.BookController.GetPaged is executed by an anonymous user in 25 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:23:29,001 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:23:29,006 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.BookController.GetPaged (BookService.Host) in 31.729ms
+INFO  2019-08-07 13:23:29,009 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.BookController.GetPaged (BookService.Host)'
+INFO  2019-08-07 13:23:29,014 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.0758ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:24:04,670 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:24:04,674 [16   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:24:04,684 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:24:04,689 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:24:04,693 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:24:04,697 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0054ms.
+INFO  2019-08-07 13:24:04,697 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:24:04,702 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:24:04,707 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 13.6181ms
+INFO  2019-08-07 13:24:04,711 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:24:04,720 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.3824ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:24:49,722 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:24:49,726 [26   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:24:49,729 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:24:49,735 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:24:49,739 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:24:49,743 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0069ms.
+INFO  2019-08-07 13:24:49,744 [26   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 8 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:24:49,747 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:24:49,752 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 13.0779ms
+INFO  2019-08-07 13:24:49,755 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:24:49,758 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.9582ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:25:34,771 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:25:34,782 [26   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:25:34,787 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:25:34,794 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:25:34,802 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:25:34,806 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1975ms.
+INFO  2019-08-07 13:25:34,806 [26   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 9 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:25:34,810 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:25:34,815 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 17.2407ms
+INFO  2019-08-07 13:25:34,818 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:25:34,822 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.8286ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:26:19,832 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:26:19,839 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:26:19,843 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:26:19,848 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:26:19,852 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:26:19,856 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0062ms.
+INFO  2019-08-07 13:26:19,856 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 8 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:26:19,861 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:26:19,865 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 13.935ms
+INFO  2019-08-07 13:26:19,869 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:26:19,879 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.677ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:27:04,878 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:27:04,885 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:27:04,887 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:27:04,890 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:27:04,894 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:27:04,898 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0056ms.
+INFO  2019-08-07 13:27:04,898 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:27:04,901 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:27:04,906 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 11.5706ms
+INFO  2019-08-07 13:27:04,909 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:27:04,917 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.0932ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:27:49,928 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:27:49,932 [37   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:27:49,935 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:27:49,939 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:27:49,943 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:27:49,946 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0071ms.
+INFO  2019-08-07 13:27:49,947 [37   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:27:49,950 [37   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:27:49,954 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 11.594ms
+INFO  2019-08-07 13:27:49,957 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:27:49,961 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.7844ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:28:34,977 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:28:34,985 [38   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:28:34,990 [38   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:28:34,993 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:28:34,997 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:28:35,000 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0068ms.
+INFO  2019-08-07 13:28:35,001 [38   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:28:35,004 [38   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:28:35,008 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 12.5214ms
+INFO  2019-08-07 13:28:35,011 [38   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:28:35,022 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.3141ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:29:20,025 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:29:20,030 [44   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:29:20,034 [44   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:29:20,039 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:29:20,043 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:29:20,047 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0078ms.
+INFO  2019-08-07 13:29:20,047 [44   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 8 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:29:20,051 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:29:20,055 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 13.1356ms
+INFO  2019-08-07 13:29:20,059 [44   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:29:20,064 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.6614ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:30:05,070 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:30:05,074 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:30:05,077 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:30:05,081 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:30:05,084 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:30:05,087 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0079ms.
+INFO  2019-08-07 13:30:05,088 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 7 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:30:05,091 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:30:05,094 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 10.796ms
+INFO  2019-08-07 13:30:05,097 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:30:05,100 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.6035ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:30:50,108 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:30:50,111 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:30:50,114 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:30:50,118 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:30:50,122 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:30:50,125 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.01ms.
+INFO  2019-08-07 13:30:50,125 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 6 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:30:50,128 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:30:50,130 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 9.4993ms
+INFO  2019-08-07 13:30:50,134 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:30:50,138 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.715ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:31:35,145 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:31:35,148 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:31:35,153 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:31:35,157 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:31:35,160 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:31:35,163 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0065ms.
+INFO  2019-08-07 13:31:35,163 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 6 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:31:35,167 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:31:35,170 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 10.215ms
+INFO  2019-08-07 13:31:35,174 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:31:35,177 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.0833ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:32:20,186 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:32:20,191 [53   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:32:20,194 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:32:20,199 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:32:20,207 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:32:20,210 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0059ms.
+INFO  2019-08-07 13:32:20,210 [53   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 10 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:32:20,213 [53   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:32:20,218 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 14.5406ms
+INFO  2019-08-07 13:32:20,222 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:32:20,226 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.4955ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:33:05,234 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:33:05,239 [49   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:33:05,243 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:33:05,247 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:33:05,252 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:33:05,256 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0081ms.
+INFO  2019-08-07 13:33:05,257 [49   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 8 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:33:05,263 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:33:05,270 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 16.9906ms
+INFO  2019-08-07 13:33:05,273 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:33:05,285 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.5658ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:33:50,285 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:33:50,289 [6    ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:33:50,293 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:33:50,296 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:33:50,302 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:33:50,307 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0098ms.
+INFO  2019-08-07 13:33:50,308 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 11 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:33:50,312 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:33:50,318 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 16.7816ms
+INFO  2019-08-07 13:33:50,321 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:33:50,325 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.7ms 200 application/json; charset=utf-8
+INFO  2019-08-07 13:34:35,333 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://192.168.1.165:5005/api/health  
+DEBUG 2019-08-07 13:34:35,339 [61   ] tion.IdentityServerAuthenticationHandler - AuthenticationScheme: Bearer was not authenticated.
+INFO  2019-08-07 13:34:35,343 [61   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:34:35,346 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.String Get() on controller BookService.Host.Controllers.HealthController (BookService.Host).
+INFO  2019-08-07 13:34:35,351 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BookService.Host.Controllers.HealthController.Get (BookService.Host) - Validation state: Valid
+INFO  2019-08-07 13:34:35,355 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BookService.Host.Controllers.HealthController.Get (BookService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0067ms.
+INFO  2019-08-07 13:34:35,356 [61   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BookService.Host.Controllers.HealthController.Get is executed by an anonymous user in 8 ms from 192.168.1.102 IP address with succeed.
+INFO  2019-08-07 13:34:35,359 [61   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-07 13:34:35,363 [61   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BookService.Host.Controllers.HealthController.Get (BookService.Host) in 13.6024ms
+INFO  2019-08-07 13:34:35,367 [61   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BookService.Host.Controllers.HealthController.Get (BookService.Host)'
+INFO  2019-08-07 13:34:35,381 [61   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.7587ms 200 application/json; charset=utf-8
